@@ -1,0 +1,27 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: yk
+  Date: 2020/5/16
+  Time: 20:00
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>表单提交</title>
+    </head>
+    <body>
+        <form action="form.do" method="post">
+        用户名: <input type="text" name="username"> <br/>
+        密码: <input type="password" name="password"> <br/>
+        性别:<input type="radio" name="gender" value="男">男
+        <input type="radio" name="gender" value="女">女<br/>
+        爱好:<input type="checkbox" name="likes" value="唱">唱
+        <input type="checkbox" name="likes" value="跳">跳
+        <input type="checkbox" name="likes" value="Rap">Rap
+        <input type="checkbox" name="likes" value="篮球">篮球<br/>
+        <input type="submit" value="提交"> <br/>
+        </form>
+    </body>
+</html>
