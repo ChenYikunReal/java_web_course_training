@@ -14,10 +14,15 @@ public class SetSessionServlet extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
-//        String sessionId = session.getId();
-//        System.out.println(sessionId);
         session.setAttribute("username", "Jim");
-        session.setAttribute("userAge", 18);
+        session.setAttribute("age", 18);
+        //session.setAttribute("username", 18);
+        //session.setAttribute("username", "18");
+        //session.setAttribute("username", "Jim");
+        //session.setAttribute("username", "吉姆");
+        session.setAttribute("user", new User(11, "HH", "hhh", "123456"));
+        //session.removeAttribute("username");
+        //session.invalidate();
         response.sendRedirect("GetSessionServlet");
     }
 

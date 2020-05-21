@@ -16,10 +16,12 @@ public class GetSessionServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
         String username = (String)session.getAttribute("username");
-        Integer userAge = (Integer)session.getAttribute("userAge");
+        Integer age = (Integer)session.getAttribute("age");
+        User user = (User)session.getAttribute("user");
         response.setContentType("text/html;charset=utf-8");
         PrintWriter out = response.getWriter();
-        out.println("用户名：" + username + "<br/>用户年龄：" + userAge);
+        //out.println(username);
+        out.println("用户名：" + username + "<br/>用户年龄：" + age + "<br/>某用户信息：" + user.toString());
     }
 
 }

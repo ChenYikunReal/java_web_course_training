@@ -1,0 +1,8 @@
+localhost:8888/web/SetSessionServlet
+
+问题1：测试如果name重复了？
+我的回答：覆盖
+问题2：如果value重复了？
+我的回答：好像……没什么特别的
+问题3：如果value存中文是否支持？
+我的回答：我这边是成功显示了
