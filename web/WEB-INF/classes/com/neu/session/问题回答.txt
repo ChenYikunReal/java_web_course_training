@@ -3,6 +3,14 @@ localhost:8888/web/SetSessionServlet
 问题1：测试如果name重复了？
 我的回答：覆盖
 问题2：如果value重复了？
-我的回答：好像……没什么特别的
+我的回答：好像……没什么特别的？
 问题3：如果value存中文是否支持？
 我的回答：我这边是成功显示了
+  当数据库是中文时，常用的方法：
+    1.重新转码 new String(u.getBytes("iso-8859-1"),"gb2312");
+    2.通过使用过滤器来解决
+    3.通过配置servler.xml文件(不太稳定).
+        将tomcat中的servler.xml文件中的<Connector port="8080" protocol="HTTP/1.1" maxThreads="150"
+            connectionTimeout="20000" redirectPort="8443" />
+        改为<Connector port="8080" protocol="HTTP/1.1" maxThreads="150" connectionTimeout="20000"
+            redirectPort="8443" URLEncoding="GBK“ />//或者gb2312
