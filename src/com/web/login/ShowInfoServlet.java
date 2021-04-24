@@ -7,11 +7,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
 
-/**
- * 作业3的Servlet
- * @time 2020.5.16
- * @author yk
- */
 public class ShowInfoServlet extends HttpServlet {
 
     @Override

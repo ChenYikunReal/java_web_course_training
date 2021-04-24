@@ -8,11 +8,6 @@ import java.util.HashMap;
 import java.util.Map;
 import javax.servlet.ServletException;
 
-/**
- * 作业3的Servlet
- * @time 2020.5.16
- * @author yk
- */
 public class SkipToServletServlet extends HttpServlet {
 
     @Override

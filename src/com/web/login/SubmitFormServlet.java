@@ -8,11 +8,6 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import javax.servlet.ServletException;
 
-/**
- * 作业1的Servlet
- * @time 2020.5.16
- * @author yk
- */
 public class SubmitFormServlet extends HttpServlet {
 
     @Override

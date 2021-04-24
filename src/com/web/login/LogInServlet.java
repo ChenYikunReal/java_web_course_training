@@ -9,11 +9,6 @@ import java.util.HashMap;
 import java.util.Map;
 import javax.servlet.ServletException;
 
-/**
- * 作业2的Servlet
- * @time 2020.5.16
- * @author yk
- */
 public class LogInServlet extends HttpServlet {
 
     @Override
