@@ -1,4 +1,4 @@
-package com.neu.login;
+package com.web.login;
 
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpServletRequest;

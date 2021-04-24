@@ -1,4 +1,4 @@
-package com.neu.session;
+package com.web.session;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.*;

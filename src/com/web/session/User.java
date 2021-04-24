@@ -1,4 +1,4 @@
-package com.neu.session;
+package com.web.session;
 
 public class User {
 

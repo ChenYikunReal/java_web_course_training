@@ -1,4 +1,4 @@
-package com.neu.vo;
+package com.web.vo;
 
 public class User {
 

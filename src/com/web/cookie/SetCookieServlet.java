@@ -1,4 +1,4 @@
-package com.neu.cookie;
+package com.web.cookie;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.Cookie;

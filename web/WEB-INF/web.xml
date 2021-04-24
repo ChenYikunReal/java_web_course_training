@@ -5,7 +5,7 @@
          version="4.0">
     <servlet>
         <servlet-name>LogInServlet</servlet-name>
-        <servlet-class>com.neu.login.LogInServlet</servlet-class>
+        <servlet-class>com.web.login.LogInServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LogInServlet</servlet-name>
@@ -13,7 +13,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>ShowInfoServlet</servlet-name>
-        <servlet-class>com.neu.login.ShowInfoServlet</servlet-class>
+        <servlet-class>com.web.login.ShowInfoServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ShowInfoServlet</servlet-name>
@@ -21,7 +21,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>SkipToJspServlet</servlet-name>
-        <servlet-class>com.neu.login.SkipToJspServlet</servlet-class>
+        <servlet-class>com.web.login.SkipToJspServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SkipToJspServlet</servlet-name>
@@ -29,7 +29,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>SkipToServletServlet</servlet-name>
-        <servlet-class>com.neu.login.SkipToServletServlet</servlet-class>
+        <servlet-class>com.web.login.SkipToServletServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SkipToServletServlet</servlet-name>
@@ -37,7 +37,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>SubmitFormServlet</servlet-name>
-        <servlet-class>com.neu.login.SubmitFormServlet</servlet-class>
+        <servlet-class>com.web.login.SubmitFormServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SubmitFormServlet</servlet-name>
@@ -46,7 +46,7 @@
 
     <servlet>
         <servlet-name>SetCookieServlet</servlet-name>
-        <servlet-class>com.neu.cookie.SetCookieServlet</servlet-class>
+        <servlet-class>com.web.cookie.SetCookieServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SetCookieServlet</servlet-name>
@@ -54,7 +54,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>GetCookieServlet</servlet-name>
-        <servlet-class>com.neu.cookie.GetCookieServlet</servlet-class>
+        <servlet-class>com.web.cookie.GetCookieServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GetCookieServlet</servlet-name>
@@ -62,7 +62,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>SetSessionServlet</servlet-name>
-        <servlet-class>com.neu.session.SetSessionServlet</servlet-class>
+        <servlet-class>com.web.session.SetSessionServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SetSessionServlet</servlet-name>
@@ -70,7 +70,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>GetSessionServlet</servlet-name>
-        <servlet-class>com.neu.session.GetSessionServlet</servlet-class>
+        <servlet-class>com.web.session.GetSessionServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GetSessionServlet</servlet-name>
